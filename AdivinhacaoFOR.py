@@ -18,7 +18,7 @@ def jogarAdivinhacao():
     elif(nivel==3):
         numeroTentativas=2
     else:
-        print("Por favor escolha uma opção válida.")
+        print("Por favor, reinicie o jogo e escolha uma opção válida.")
 
     #Início do laço----------------------
     for rodada in range(1,numeroTentativas+1):
